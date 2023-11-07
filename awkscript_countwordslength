@@ -1,3 +1,4 @@
+#write a awk script to find the number of characters words and lines in a file
 #!/usr/bin/bash
 awk 'BEGIN { characters=0; words=0; lines=0; }
      { 
